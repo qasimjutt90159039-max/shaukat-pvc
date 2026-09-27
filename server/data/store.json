@@ -1,4 +1,4 @@
-{
+﻿{
   "Users": [
     {
       "id": "usr-admin-01",
@@ -84,10 +84,10 @@
         "color": "Signal White",
         "application": "Drinking Water Lines, Domestic Plumbing",
         "connectionType": "Solvent Cement Socket Welded",
-        "pressureRating": "9.0 Bar (130 PSI) at 20°C",
+        "pressureRating": "9.0 Bar (130 PSI) at 20Â°C",
         "standardCompliance": "PS:3051 / ASTM D1785 Standard Compliant",
         "wallThickness": "2.8 mm nominal",
-        "operatingTemp": "0°C to 50°C"
+        "operatingTemp": "0Â°C to 50Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.031Z",
       "updatedAt": "2026-09-27T11:22:29.032Z"
@@ -156,7 +156,7 @@
         "connectionType": "Heavy Duty Solvent Weld",
         "pressureRating": "Schedule 40 (Up to 280 PSI)",
         "wallThickness": "3.91 mm nominal (for 2\")",
-        "operatingTemp": "0°C to 55°C"
+        "operatingTemp": "0Â°C to 55Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.032Z",
       "updatedAt": "2026-09-27T11:22:29.032Z"
@@ -252,7 +252,7 @@
       "pressureRating": "Class D (12.0 Bar / 175 PSI)",
       "brand": "MasterFlow Pro",
       "images": [
-        "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
       ],
       "variants": [
         {
@@ -352,7 +352,7 @@
         "standardCompliance": "ASTM D1785 Schedule 80",
         "pressureRating": "Up to 400 PSI",
         "wallThickness": "5.54 mm (for 2\")",
-        "operatingTemp": "0°C to 60°C"
+        "operatingTemp": "0Â°C to 60Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.032Z",
       "updatedAt": "2026-09-27T11:22:29.032Z"
@@ -371,7 +371,7 @@
       "isSale": false,
       "isDemo": true,
       "shortDescription": "Polypropylene Random Copolymer pipe for concealed hot water geyser and cold water sanitary lines with heat-fused joints.",
-      "description": "The modern standard for concealed bathroom plumbing in Pakistan. Seamless socket fusion ensures homogenous leak-free connections without glue. Resistant to hot boiling water, calcification, and scaling up to 95°C.",
+      "description": "The modern standard for concealed bathroom plumbing in Pakistan. Seamless socket fusion ensures homogenous leak-free connections without glue. Resistant to hot boiling water, calcification, and scaling up to 95Â°C.",
       "material": "PPR-C Type 3 (Polypropylene Random Copolymer)",
       "diameter": "25mm (3/4 inch)",
       "length": "4m (13.1 ft)",
@@ -417,7 +417,7 @@
         "length": "4 meters per pipe",
         "pressureRating": "PN20 (20 Bar)",
         "standardCompliance": "DIN 8077 / DIN 8078",
-        "operatingTemp": "-20°C to +95°C"
+        "operatingTemp": "-20Â°C to +95Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.032Z",
       "updatedAt": "2026-09-27T11:22:29.032Z"
@@ -435,14 +435,14 @@
       "isFeatured": false,
       "isSale": false,
       "isDemo": true,
-      "shortDescription": "Chlorinated PVC pipe for solar geysers, boilers, and continuous hot water supply lines up to 93°C.",
+      "shortDescription": "Chlorinated PVC pipe for solar geysers, boilers, and continuous hot water supply lines up to 93Â°C.",
       "description": "Engineered specifically for pressurized hot water plumbing. CPVC offers higher temperature ratings than standard PVC and does not corrode or pit like metal copper or galvanized pipes.",
       "material": "CPVC (Chlorinated Polyvinyl Chloride)",
       "diameter": "3/4 inch (20mm)",
       "length": "10 ft",
       "color": "Cream / Tan",
       "application": "Solar Water Heaters, Geysers, Commercial Boilers",
-      "pressureRating": "SDR 11 (27.6 Bar at 23°C / 6.9 Bar at 82°C)",
+      "pressureRating": "SDR 11 (27.6 Bar at 23Â°C / 6.9 Bar at 82Â°C)",
       "brand": "MasterFlow Pro",
       "images": [
         "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=800&q=80"
@@ -470,7 +470,7 @@
       "technicalSpecifications": {
         "material": "Chlorinated Polyvinyl Chloride (CPVC)",
         "standardCompliance": "ASTM D2846 / SDR 11",
-        "operatingTemp": "Continuous up to 93°C (200°F)",
+        "operatingTemp": "Continuous up to 93Â°C (200Â°F)",
         "connectionType": "CPVC Orange Solvent Cement"
       },
       "createdAt": "2026-09-27T11:22:29.032Z",
@@ -618,7 +618,7 @@
       "length": "10 ft (3m)",
       "color": "Terracotta / Brown Grey",
       "application": "Main Building Sewer Line, Municipal Waste Outfall",
-      "pressureRating": "Ring Stiffness SN4 (4 kN/m²)",
+      "pressureRating": "Ring Stiffness SN4 (4 kN/mÂ²)",
       "brand": "DrainPro Standard",
       "images": [
         "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
@@ -655,7 +655,7 @@
       "technicalSpecifications": {
         "material": "Unplasticized Polyvinyl Chloride Sewer Grade",
         "standardCompliance": "BS EN 1401 / ISO 4435",
-        "ringStiffness": "SN4 (4 kN/m²)",
+        "ringStiffness": "SN4 (4 kN/mÂ²)",
         "connectionType": "Rubber Ring Socket (Elastomeric Seal)"
       },
       "createdAt": "2026-09-27T11:22:29.032Z",
@@ -726,7 +726,7 @@
       ],
       "technicalSpecifications": {
         "material": "Flexible Virgin PVC with Rigid PVC Helix",
-        "operatingTemp": "-10°C to +60°C",
+        "operatingTemp": "-10Â°C to +60Â°C",
         "reinforcement": "Crush-resistant internal spiral"
       },
       "createdAt": "2026-09-27T11:22:29.032Z",
@@ -754,7 +754,7 @@
       "application": "Kitchen Sink Drain, Bathroom Vanity Basin Drain",
       "brand": "DrainPro Standard",
       "images": [
-        "https://images.unsplash.com/photo-1607400201889-565b1dd75f8e?auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=800&q=80"
       ],
       "variants": [
         {
@@ -832,7 +832,7 @@
         "material": "Rigid Flame-Retardant uPVC",
         "standardCompliance": "BS 4607 / PS:3051",
         "impactResistance": "Medium Mechanical Stress Grade",
-        "operatingTemp": "-5°C to +60°C"
+        "operatingTemp": "-5Â°C to +60Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.032Z",
       "updatedAt": "2026-09-27T11:22:29.033Z"
@@ -903,7 +903,7 @@
       "name": "90-Degree uPVC Heavy Pressure Elbow Fitting",
       "slug": "90-degree-upvc-heavy-pressure-elbow",
       "category": "pipe-fittings",
-      "subcategory": "Elbows 90° & 45°",
+      "subcategory": "Elbows 90Â° & 45Â°",
       "sku": "SH-FIT-ELB90",
       "price": 85,
       "salePrice": 75,
@@ -912,7 +912,7 @@
       "isFeatured": true,
       "isSale": true,
       "isDemo": true,
-      "shortDescription": "Precision molded 90° solvent weld elbow fitting with deep socket depth for secure high-pressure direction changes.",
+      "shortDescription": "Precision molded 90Â° solvent weld elbow fitting with deep socket depth for secure high-pressure direction changes.",
       "description": "Thick-walled uPVC directional elbow fitting for pressure plumbing loops. Molded radius promotes uniform laminar fluid movement and eliminates pressure loss points.",
       "material": "uPVC Pressure Compound",
       "diameter": "1 inch (25mm)",
@@ -967,11 +967,11 @@
       ],
       "technicalSpecifications": {
         "material": "uPVC Grade 1",
-        "productType": "90° Equal Elbow",
+        "productType": "90Â° Equal Elbow",
         "diameter": "1/2\" to 2\"",
         "connectionType": "Dual Socket Female Weld",
         "pressureRating": "PN16 (232 PSI)",
-        "operatingTemp": "Up to 50°C"
+        "operatingTemp": "Up to 50Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.033Z",
       "updatedAt": "2026-09-27T11:22:29.033Z"
@@ -981,7 +981,7 @@
       "name": "45-Degree uPVC Sweep Low-Resistance Elbow Fitting",
       "slug": "45-degree-upvc-sweep-elbow",
       "category": "pipe-fittings",
-      "subcategory": "Elbows 90° & 45°",
+      "subcategory": "Elbows 90Â° & 45Â°",
       "sku": "SH-FIT-ELB45",
       "price": 90,
       "stock": 380,
@@ -990,7 +990,7 @@
       "isSale": false,
       "isDemo": true,
       "shortDescription": "Gentle 45-degree bend fitting designed to minimize friction loss and hydraulic turbulence in pump delivery pipelines.",
-      "description": "Provides a smooth 45° angular deflection that reduces fluid backpressure compared to sharp 90-degree elbows. Often paired in sets of two to create wide sweeping bends on long supply runs.",
+      "description": "Provides a smooth 45Â° angular deflection that reduces fluid backpressure compared to sharp 90-degree elbows. Often paired in sets of two to create wide sweeping bends on long supply runs.",
       "material": "uPVC Heavy Duty",
       "diameter": "1 inch (25mm)",
       "color": "White",
@@ -1602,7 +1602,7 @@
         "diameter": "1\" to 2\"",
         "connectionType": "Double Union Female Socket Ends",
         "pressureRating": "PN16 (1600 kPa)",
-        "operatingTemp": "0°C to 55°C"
+        "operatingTemp": "0Â°C to 55Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.033Z",
       "updatedAt": "2026-09-27T11:22:29.033Z"
@@ -1860,7 +1860,7 @@
       "application": "Bathroom Floor Drainage, Balcony Waste Outlet",
       "brand": "DrainPro Standard",
       "images": [
-        "https://images.unsplash.com/photo-1607400201889-565b1dd75f8e?auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=800&q=80"
       ],
       "variants": [
         {
@@ -1984,7 +1984,7 @@
         "material": "PVC resin in active solvent vehicle",
         "productType": "Chemical Fusion Solvent Cement",
         "color": "Clear",
-        "operatingTemp": "Cures in ambient temp 15°C - 45°C",
+        "operatingTemp": "Cures in ambient temp 15Â°C - 45Â°C",
         "application": "Socket-to-spigot chemical welding"
       },
       "createdAt": "2026-09-27T11:22:29.033Z",
@@ -2036,7 +2036,7 @@
       ],
       "technicalSpecifications": {
         "material": "100% High Density PTFE",
-        "operatingTemp": "-200°C to +260°C",
+        "operatingTemp": "-200Â°C to +260Â°C",
         "pressureRating": "Up to 30 Bar hydrostatic"
       },
       "createdAt": "2026-09-27T11:22:29.033Z",
@@ -2099,7 +2099,7 @@
         "material": "Galvanized mild steel with zinc coating > 8 microns",
         "productType": "Two-bolt acoustic pipe clamp",
         "diameter": "1\" to 4\"",
-        "operatingTemp": "-30°C to +110°C"
+        "operatingTemp": "-30Â°C to +110Â°C"
       },
       "createdAt": "2026-09-27T11:22:29.033Z",
       "updatedAt": "2026-09-27T11:22:29.033Z"
@@ -2209,7 +2209,7 @@
       "technicalSpecifications": {
         "braidMaterial": "304 Stainless Steel Grade",
         "nutMaterial": "Forged Chrome/Brass Nut",
-        "maxTemp": "90°C Hot Water Rating"
+        "maxTemp": "90Â°C Hot Water Rating"
       },
       "createdAt": "2026-09-27T11:22:29.033Z",
       "updatedAt": "2026-09-27T11:22:29.033Z"
@@ -2323,7 +2323,7 @@
       "slug": "pipe-fittings",
       "description": "Precision engineered elbows, tees, couplers, reducers, and union fittings for leak-proof pipelines.",
       "subcategories": [
-        "Elbows 90° & 45°",
+        "Elbows 90Â° & 45Â°",
         "Equal & Reducing Tees",
         "Couplers & Sockets",
         "Reducers",
@@ -2492,7 +2492,7 @@
       "author": "Engineering Desk",
       "published": true,
       "readTime": "6 min read",
-      "content": "When designing plumbing distribution networks, choosing the exact class and wall thickness of PVC pipe determines long-term structural integrity and flow reliability.\n\n### 1. Understanding Pipe Classification\nIn uPVC piping standards (such as PS:3051 and ASTM D1785), pipes are categorized by working pressure capacity at 20°C:\n- **Class B (6.0 Bar / ~87 PSI):** Typically designated for gravity discharge lines, low-pressure rural irrigation, or secondary channels.\n- **Class C (9.0 Bar / ~130 PSI):** The baseline standard for potable cold water distribution inside residential and light commercial buildings.\n- **Class D & Schedule 40:** High-strength pressure lines designed for water booster pumping stations, multistory overhead tank risers, and industrial fluid loops.\n- **Schedule 80:** Extra-thick wall pipe engineered for aggressive chemical lines and extreme pressure manifolds.\n\n### 2. Inner Diameter (ID) vs Nominal Bore\nA frequent misconception is assuming that the outer diameter changes with higher pressure ratings. In standard rigid PVC, the **outside diameter remains constant** so that standard fittings can couple across sizes, while **wall thickness increases inward**, which slightly narrows the internal flow bore.\n\n### 3. Thermal Considerations\nStandard uPVC is recommended for fluids up to 50°C. For continuous hot water lines, chlorinated PVC (cPVC) or polypropylene random copolymer (PPRC) must be used.",
+      "content": "When designing plumbing distribution networks, choosing the exact class and wall thickness of PVC pipe determines long-term structural integrity and flow reliability.\n\n### 1. Understanding Pipe Classification\nIn uPVC piping standards (such as PS:3051 and ASTM D1785), pipes are categorized by working pressure capacity at 20Â°C:\n- **Class B (6.0 Bar / ~87 PSI):** Typically designated for gravity discharge lines, low-pressure rural irrigation, or secondary channels.\n- **Class C (9.0 Bar / ~130 PSI):** The baseline standard for potable cold water distribution inside residential and light commercial buildings.\n- **Class D & Schedule 40:** High-strength pressure lines designed for water booster pumping stations, multistory overhead tank risers, and industrial fluid loops.\n- **Schedule 80:** Extra-thick wall pipe engineered for aggressive chemical lines and extreme pressure manifolds.\n\n### 2. Inner Diameter (ID) vs Nominal Bore\nA frequent misconception is assuming that the outer diameter changes with higher pressure ratings. In standard rigid PVC, the **outside diameter remains constant** so that standard fittings can couple across sizes, while **wall thickness increases inward**, which slightly narrows the internal flow bore.\n\n### 3. Thermal Considerations\nStandard uPVC is recommended for fluids up to 50Â°C. For continuous hot water lines, chlorinated PVC (cPVC) or polypropylene random copolymer (PPRC) must be used.",
       "createdAt": "2026-03-15T10:00:00.000Z"
     },
     {

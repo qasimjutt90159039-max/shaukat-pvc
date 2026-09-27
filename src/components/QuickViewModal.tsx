@@ -58,9 +58,12 @@ export const QuickViewModal: React.FC<QuickViewModalProps> = ({ product, onClose
           {/* Image */}
           <div className="bg-slate-50 border border-slate-200 rounded p-4 flex items-center justify-center">
             <img
-              src={product.images[0]}
+              src={product.images[0] || 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=800&q=80'}
               alt={product.name}
               referrerPolicy="no-referrer"
+              onError={(e) => {
+                e.currentTarget.src = 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=800&q=80';
+              }}
               className="max-h-64 object-contain"
             />
           </div>

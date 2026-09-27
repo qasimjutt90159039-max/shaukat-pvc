@@ -168,9 +168,12 @@ export const About: React.FC = () => {
               <div className="border border-slate-200 rounded overflow-hidden group">
                 <div className="h-40 overflow-hidden bg-slate-100">
                   <img
-                    src="https://images.unsplash.com/photo-1607400201889-565b1dd75f8e?auto=format&fit=crop&w=800&q=80"
+                    src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=800&q=80"
                     alt="Pipe cutting and sizing bay"
                     referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      e.currentTarget.src = 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=800&q=80';
+                    }}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>

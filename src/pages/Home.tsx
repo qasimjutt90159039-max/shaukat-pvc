@@ -27,6 +27,28 @@ export const Home: React.FC = () => {
   const [quickViewProduct, setQuickViewProduct] = useState<IProduct | null>(null);
   const [loading, setLoading] = useState(true);
   const [selectedFacilityPhoto, setSelectedFacilityPhoto] = useState<number>(0);
+  const [activeHeroIndex, setActiveHeroIndex] = useState<number>(0);
+
+  const heroShowcaseImages = [
+    {
+      title: 'RIGID uPVC WATER CONVEYANCE',
+      sub: 'Pressure PN16 / Nominal Bore 25mm-110mm',
+      tag: 'MULTAN STOCK',
+      url: 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      title: 'INDUSTRIAL HIGH-PRESSURE LOOPS',
+      sub: 'Class C & D / ASTM Heavy Wall Specs',
+      tag: 'TESTED 280 PSI',
+      url: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80',
+    },
+    {
+      title: 'BULK PIPE STORAGE YARDS',
+      sub: 'Covered Bays / 10ft & 20ft Full Lengths',
+      tag: 'READY DISPATCH',
+      url: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=1200&q=80',
+    },
+  ];
 
   const facilityPhotos = [
     {
@@ -61,7 +83,7 @@ export const Home: React.FC = () => {
       title: 'Precision Sizing, Cutting & Quality Bay',
       location: 'In-House Preparation',
       tag: 'WORKSHOP & INSPECTION',
-      image: 'https://images.unsplash.com/photo-1607400201889-565b1dd75f8e?auto=format&fit=crop&w=1200&q=80',
+      image: 'https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1200&q=80',
       description: 'Dedicated pipe preparation bench equipped with ratchet shear cutters and caliber gauges for contractor custom length sizing and socket beveling before dispatch.',
       highlights: ['Square 90° burr-free cuts', 'Wall thickness verification', 'Job-ready bundle preparation'],
     },
@@ -173,18 +195,47 @@ export const Home: React.FC = () => {
 
                 <div className="relative overflow-hidden rounded bg-slate-950 aspect-4/3 flex items-center justify-center p-2">
                   <img
-                    src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1000&q=80"
-                    alt="Shaukat PVC Plastic Pipe Shop - Plumbing and Pipeline Engineering"
+                    src={heroShowcaseImages[activeHeroIndex].url}
+                    alt={heroShowcaseImages[activeHeroIndex].title}
                     referrerPolicy="no-referrer"
-                    className="object-cover w-full h-full rounded opacity-90 hover:opacity-100 transition-opacity"
+                    onError={(e) => {
+                      e.currentTarget.src = 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=1200&q=80';
+                    }}
+                    className="object-cover w-full h-full rounded opacity-90 hover:opacity-100 transition-all duration-300"
                   />
-                  <div className="absolute bottom-2 left-2 right-2 bg-[#17212B]/90 border border-slate-700/80 p-2.5 rounded text-[11px] font-mono-spec flex justify-between items-center text-slate-300">
+                  <div className="absolute bottom-2 left-2 right-2 bg-[#17212B]/95 border border-slate-700/80 p-2.5 rounded text-[11px] font-mono-spec flex justify-between items-center text-slate-300 backdrop-blur-xs">
                     <div>
-                      <span className="text-white font-bold block">RIGID uPVC WATER CONVEYANCE</span>
-                      <span className="text-slate-400">Pressure PN16 / Nominal Bore 25mm-110mm</span>
+                      <span className="text-white font-bold block">{heroShowcaseImages[activeHeroIndex].title}</span>
+                      <span className="text-slate-400">{heroShowcaseImages[activeHeroIndex].sub}</span>
                     </div>
-                    <span className="text-[#F5A623] font-bold">MULTAN STOCK</span>
+                    <span className="text-[#F5A623] font-bold text-xs">{heroShowcaseImages[activeHeroIndex].tag}</span>
                   </div>
+                </div>
+
+                {/* Hero Showcase Multi-Image Switcher */}
+                <div className="grid grid-cols-3 gap-2 mt-2.5">
+                  {heroShowcaseImages.map((item, idx) => (
+                    <button
+                      key={idx}
+                      type="button"
+                      onClick={() => setActiveHeroIndex(idx)}
+                      className={`relative h-14 rounded overflow-hidden border-2 transition-all cursor-pointer ${
+                        activeHeroIndex === idx
+                          ? 'border-[#F5A623] ring-1 ring-[#F5A623] shadow-md scale-[1.02]'
+                          : 'border-slate-700/80 opacity-60 hover:opacity-100 hover:border-slate-500'
+                      }`}
+                    >
+                      <img
+                        src={item.url}
+                        alt={item.title}
+                        referrerPolicy="no-referrer"
+                        onError={(e) => {
+                          e.currentTarget.src = 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=600&q=80';
+                        }}
+                        className="w-full h-full object-cover"
+                      />
+                    </button>
+                  ))}
                 </div>
 
                 {/* Technical Metric Cards */}
@@ -938,9 +989,12 @@ export const Home: React.FC = () => {
             <div className="lg:col-span-6 flex justify-center">
               <div className="relative border-4 border-slate-700 bg-slate-950 p-2 rounded shadow-2xl max-w-md w-full">
                 <img
-                  src="https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1000&q=80"
                   alt="PVC Pipe Technical Cross Section and Water Infrastructure"
                   referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=1000&q=80';
+                  }}
                   className="w-full h-72 object-cover rounded"
                 />
                 <div className="p-3 bg-slate-900 border-t border-slate-800 text-[11px] font-mono-spec flex items-center justify-between text-slate-400">

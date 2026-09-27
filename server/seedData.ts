@@ -210,7 +210,7 @@ export const initialProducts: IProduct[] = [
     pressureRating: 'Class D (12.0 Bar / 175 PSI)',
     brand: 'MasterFlow Pro',
     images: [
-      'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80',
     ],
     variants: [
       { id: 'v-clsd-1', sku: 'SH-PVC-CLD-125', diameter: '1.25 inch', length: '10 ft', color: 'White', price: 1380, stock: 90 },
@@ -532,7 +532,7 @@ export const initialProducts: IProduct[] = [
     application: 'Kitchen Sink Drain, Bathroom Vanity Basin Drain',
     brand: 'DrainPro Standard',
     images: [
-      'https://images.unsplash.com/photo-1607400201889-565b1dd75f8e?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=800&q=80',
     ],
     variants: [
       { id: 'v-flx-1', sku: 'SH-DRN-FLX-01', diameter: '1.25" / 1.5"', length: '32 inch', color: 'White', price: 180, stock: 450 },
@@ -1227,7 +1227,7 @@ export const initialProducts: IProduct[] = [
     application: 'Bathroom Floor Drainage, Balcony Waste Outlet',
     brand: 'DrainPro Standard',
     images: [
-      'https://images.unsplash.com/photo-1607400201889-565b1dd75f8e?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=800&q=80',
     ],
     variants: [
       { id: 'v-nah-1', sku: 'SH-DRN-NAH-110', diameter: '110mm x 75mm', color: 'White/SS Grate', price: 450, stock: 140 },

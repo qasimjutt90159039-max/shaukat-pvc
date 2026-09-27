@@ -59,6 +59,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }
           referrerPolicy="no-referrer"
           className="object-contain w-full h-full group-hover:scale-105 transition-transform duration-300"
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.src = 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=800&q=80';
+          }}
         />
 
         {/* Dynamic Status / Promo Badges (Clean square industrial badges) */}

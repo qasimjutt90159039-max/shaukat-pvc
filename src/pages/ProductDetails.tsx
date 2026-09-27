@@ -176,6 +176,9 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ slug }) => {
                   alt={product.name}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-contain"
+                  onError={(e) => {
+                    e.currentTarget.src = 'https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&w=1000&q=80';
+                  }}
                 />
 
                 <div className="absolute top-3 left-3 flex flex-col gap-1.5">
