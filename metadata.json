@@ -1,0 +1,6 @@
+{
+  "name": "Shaukat PVC Plastic Pipe Shop",
+  "description": "Professional PVC, Plastic Pipes & Plumbing Supplies store in Multan, Punjab, Pakistan. Quality PVC water pipes, pressure pipes, drainage fittings, valves, bulk orders, and quotations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
